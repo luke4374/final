@@ -1,6 +1,6 @@
 //用nodeJS写webhook的post请求接收代码
 const http=require('http')
-const child=require('shild_process')
+const child=require('child_process')
 var server=http.createServer()
 server.on('request',function (reg,res) {
     res.end("sucess!")
