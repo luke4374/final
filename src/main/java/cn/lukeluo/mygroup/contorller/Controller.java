@@ -13,7 +13,7 @@ public class Controller {
     @RequestMapping("/albums")
     public List<Album> findAllAlbums(){
     List<Album> albums = new ArrayList<>();
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < 2; i++) {
          Album a=new Album();
          a.setId(i);
          a.setName("album"+i);
